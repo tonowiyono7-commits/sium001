@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="55%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <!-- Calendar outer frame -->
+  <rect x="108" y="128" width="296" height="276" rx="36" fill="#ffffff" />
+  <!-- Calendar top header bar -->
+  <path d="M108 164c0-19.882 16.118-36 36-36h224c19.882 0 36 16.118 36 36v40H108v-40z" fill="#1d4ed8" />
+  <!-- Calendar binding rings -->
+  <rect x="172" y="96" width="24" height="56" rx="12" fill="#e2e8f0" />
+  <rect x="316" y="96" width="24" height="56" rx="12" fill="#e2e8f0" />
+  <!-- Roster matrix grid cells -->
+  <rect x="144" y="236" width="60" height="44" rx="10" fill="#dbeafe" />
+  <rect x="226" y="236" width="60" height="44" rx="10" fill="#2563eb" />
+  <rect x="308" y="236" width="60" height="44" rx="10" fill="#dbeafe" />
+  <rect x="144" y="300" width="60" height="44" rx="10" fill="#10b981" />
+  <rect x="226" y="300" width="60" height="44" rx="10" fill="#dbeafe" />
+  <rect x="308" y="300" width="60" height="44" rx="10" fill="#f59e0b" />
+</svg>

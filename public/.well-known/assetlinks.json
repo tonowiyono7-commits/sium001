@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.github.twa.jadwal.piket",
+      "sha256_cert_fingerprints": [
+        "74:84:80:58:F3:F9:65:D6:6C:A0:FE:90:2F:C4:44:27:A0:67:4B:23:54:C4:EF:4F:89:1F:09:4C:EC:46:F4:7F"
+      ]
+    }
+  }
+]

@@ -1,0 +1,532 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // 1. Global Safety Net (Default Deny)
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // 2. Hardened Global Primitives
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    function isSignedIn() {
+      return request.auth != null
+        && request.auth.token.email_verified == true
+        && request.auth.token.email is string
+        && request.auth.token.email.size() >= 5
+        && request.auth.token.email.size() <= 120;
+    }
+
+    function emailKey() {
+      return request.auth.token.email.lower().replace('[^a-z0-9]', '_');
+    }
+
+    function isBootstrappedAdmin() {
+      return isSignedIn()
+        && request.auth.token.email.lower() == 'alimahfud5@gmail.com';
+    }
+
+    function isAdmin() {
+      return isBootstrappedAdmin() || (
+        isSignedIn()
+        && exists(/databases/$(database)/documents/accounts/$(emailKey()))
+        && get(/databases/$(database)/documents/accounts/$(emailKey())).data.email == request.auth.token.email.lower()
+        && get(/databases/$(database)/documents/accounts/$(emailKey())).data.active == true
+        && get(/databases/$(database)/documents/accounts/$(emailKey())).data.role == 'admin'
+      );
+    }
+
+    function isRegisteredMember() {
+      return isBootstrappedAdmin() || (
+        isSignedIn()
+        && exists(/databases/$(database)/documents/accounts/$(emailKey()))
+        && get(/databases/$(database)/documents/accounts/$(emailKey())).data.email == request.auth.token.email.lower()
+        && get(/databases/$(database)/documents/accounts/$(emailKey())).data.active == true
+        && get(/databases/$(database)/documents/accounts/$(emailKey())).data.role in ['admin', 'user']
+      );
+    }
+
+    function hasValidAuditOnCreate(data) {
+      return data.createdAt is timestamp
+        && data.updatedAt is timestamp
+        && data.createdAt == request.time
+        && data.updatedAt == request.time
+        && data.createdByUid is string
+        && data.createdByUid.size() >= 1
+        && data.createdByUid.size() <= 128
+        && data.createdByUid == request.auth.uid
+        && data.updatedByUid is string
+        && data.updatedByUid.size() >= 1
+        && data.updatedByUid.size() <= 128
+        && data.updatedByUid == request.auth.uid;
+    }
+
+    function hasValidAuditOnUpdate(data) {
+      return data.createdAt is timestamp
+        && data.updatedAt is timestamp
+        && data.createdAt == existing().createdAt
+        && data.updatedAt == request.time
+        && data.createdByUid is string
+        && data.createdByUid.size() >= 1
+        && data.createdByUid.size() <= 128
+        && data.createdByUid == existing().createdByUid
+        && data.updatedByUid is string
+        && data.updatedByUid.size() >= 1
+        && data.updatedByUid.size() <= 128
+        && data.updatedByUid == request.auth.uid;
+    }
+
+    // 3. Entity Validation Blueprints (Anti-Update-Gap)
+    function isValidAccountRecord(data) {
+      return data.keys().hasAll([
+          'email',
+          'displayName',
+          'role',
+          'roleLabel',
+          'active',
+          'createdAt',
+          'updatedAt',
+          'createdByUid',
+          'updatedByUid'
+        ])
+        && data.keys().hasOnly([
+          'email',
+          'displayName',
+          'role',
+          'roleLabel',
+          'active',
+          'createdAt',
+          'updatedAt',
+          'createdByUid',
+          'updatedByUid'
+        ])
+        && data.email is string
+        && data.email.size() >= 5
+        && data.email.size() <= 120
+        && data.email == data.email.lower()
+        && data.displayName is string
+        && data.displayName.size() >= 1
+        && data.displayName.size() <= 100
+        && data.role in ['admin', 'user']
+        && data.roleLabel is string
+        && data.roleLabel.size() >= 1
+        && data.roleLabel.size() <= 80
+        && data.active is bool
+        && data.createdAt is timestamp
+        && data.updatedAt is timestamp
+        && data.createdByUid is string
+        && data.createdByUid.size() >= 1
+        && data.createdByUid.size() <= 128
+        && data.updatedByUid is string
+        && data.updatedByUid.size() >= 1
+        && data.updatedByUid.size() <= 128;
+    }
+
+    function isValidAccountDirectory(data) {
+      return data.keys().hasAll([
+          'items',
+          'createdAt',
+          'updatedAt',
+          'createdByUid',
+          'updatedByUid'
+        ])
+        && data.keys().hasOnly([
+          'items',
+          'createdAt',
+          'updatedAt',
+          'createdByUid',
+          'updatedByUid'
+        ])
+        && data.items is list
+        && data.items.size() <= 200
+        && (data.items.size() == 0 || data.items[0] is map)
+        && data.createdAt is timestamp
+        && data.updatedAt is timestamp
+        && data.createdByUid is string
+        && data.createdByUid.size() >= 1
+        && data.createdByUid.size() <= 128
+        && data.updatedByUid is string
+        && data.updatedByUid.size() >= 1
+        && data.updatedByUid.size() <= 128;
+    }
+
+    function isValidRosterConfig(data) {
+      return data.keys().hasAll([
+          'header',
+          'personnel',
+          'unitOrder',
+          'pawasAnchor',
+          'lastBackupAt',
+          'createdAt',
+          'updatedAt',
+          'createdByUid',
+          'updatedByUid'
+        ])
+        && data.keys().hasOnly([
+          'header',
+          'personnel',
+          'unitOrder',
+          'pawasAnchor',
+          'lastBackupAt',
+          'createdAt',
+          'updatedAt',
+          'createdByUid',
+          'updatedByUid'
+        ])
+        && data.header is map
+        && data.header.keys().size() <= 16
+        && data.personnel is list
+        && data.personnel.size() <= 500
+        && (data.personnel.size() == 0 || data.personnel[0] is map)
+        && data.unitOrder is list
+        && data.unitOrder.size() <= 30
+        && (data.unitOrder.size() == 0 || data.unitOrder[0] is string)
+        && data.pawasAnchor is map
+        && data.pawasAnchor.keys().size() <= 6
+        && data.lastBackupAt is string
+        && data.lastBackupAt.size() <= 64
+        && data.createdAt is timestamp
+        && data.updatedAt is timestamp
+        && data.createdByUid is string
+        && data.createdByUid.size() >= 1
+        && data.createdByUid.size() <= 128
+        && data.updatedByUid is string
+        && data.updatedByUid.size() >= 1
+        && data.updatedByUid.size() <= 128;
+    }
+
+    function isValidRosterOverrides(data) {
+      return data.keys().hasAll([
+          'overrides',
+          'createdAt',
+          'updatedAt',
+          'createdByUid',
+          'updatedByUid'
+        ])
+        && data.keys().hasOnly([
+          'overrides',
+          'createdAt',
+          'updatedAt',
+          'createdByUid',
+          'updatedByUid'
+        ])
+        && data.overrides is map
+        && data.overrides.keys().size() <= 5000
+        && data.createdAt is timestamp
+        && data.updatedAt is timestamp
+        && data.createdByUid is string
+        && data.createdByUid.size() >= 1
+        && data.createdByUid.size() <= 128
+        && data.updatedByUid is string
+        && data.updatedByUid.size() >= 1
+        && data.updatedByUid.size() <= 128;
+    }
+
+    function isValidRengiatState(data) {
+      return data.keys().hasAll([
+          'greeting',
+          'unitLabel',
+          'items',
+          'selectedWaDates',
+          'waPhone',
+          'createdAt',
+          'updatedAt',
+          'createdByUid',
+          'updatedByUid'
+        ])
+        && data.keys().hasOnly([
+          'greeting',
+          'unitLabel',
+          'items',
+          'selectedWaDates',
+          'waPhone',
+          'createdAt',
+          'updatedAt',
+          'createdByUid',
+          'updatedByUid'
+        ])
+        && data.greeting is string
+        && data.greeting.size() <= 160
+        && data.unitLabel is string
+        && data.unitLabel.size() <= 120
+        && data.items is list
+        && data.items.size() <= 500
+        && (data.items.size() == 0 || data.items[0] is map)
+        && data.selectedWaDates is list
+        && data.selectedWaDates.size() <= 100
+        && (data.selectedWaDates.size() == 0 || data.selectedWaDates[0] is string)
+        && data.waPhone is string
+        && data.waPhone.size() <= 40
+        && data.createdAt is timestamp
+        && data.updatedAt is timestamp
+        && data.createdByUid is string
+        && data.createdByUid.size() >= 1
+        && data.createdByUid.size() <= 128
+        && data.updatedByUid is string
+        && data.updatedByUid.size() >= 1
+        && data.updatedByUid.size() <= 128;
+    }
+
+    function isValidPamState(data) {
+      return data.keys().hasAll([
+          'activeMode',
+          'drafts',
+          'savedLists',
+          'waPhone',
+          'createdAt',
+          'updatedAt',
+          'createdByUid',
+          'updatedByUid'
+        ])
+        && data.keys().hasOnly([
+          'activeMode',
+          'drafts',
+          'savedLists',
+          'waPhone',
+          'createdAt',
+          'updatedAt',
+          'createdByUid',
+          'updatedByUid'
+        ])
+        && data.activeMode in ['AKSI', 'GIAT']
+        && data.drafts is map
+        && data.drafts.keys().hasAll(['AKSI', 'GIAT'])
+        && data.drafts.keys().hasOnly(['AKSI', 'GIAT'])
+        && data.savedLists is list
+        && data.savedLists.size() <= 20
+        && (data.savedLists.size() == 0 || data.savedLists[0] is map)
+        && data.waPhone is string
+        && data.waPhone.size() <= 40
+        && data.createdAt is timestamp
+        && data.updatedAt is timestamp
+        && data.createdByUid is string
+        && data.createdByUid.size() >= 1
+        && data.createdByUid.size() <= 128
+        && data.updatedByUid is string
+        && data.updatedByUid.size() >= 1
+        && data.updatedByUid.size() <= 128;
+    }
+
+    function isValidSuratState(data) {
+      return data.keys().hasAll([
+          'activeMode',
+          'sprin',
+          'biasa',
+          'savedList',
+          'createdAt',
+          'updatedAt',
+          'createdByUid',
+          'updatedByUid'
+        ])
+        && data.keys().hasOnly([
+          'activeMode',
+          'sprin',
+          'biasa',
+          'savedList',
+          'createdAt',
+          'updatedAt',
+          'createdByUid',
+          'updatedByUid'
+        ])
+        && data.activeMode in ['SPRIN', 'BIASA']
+        && data.sprin is map
+        && data.biasa is map
+        && data.savedList is list
+        && data.savedList.size() <= 20
+        && (data.savedList.size() == 0 || data.savedList[0] is map)
+        && data.createdAt is timestamp
+        && data.updatedAt is timestamp
+        && data.createdByUid is string
+        && data.createdByUid.size() >= 1
+        && data.createdByUid.size() <= 128
+        && data.updatedByUid is string
+        && data.updatedByUid.size() >= 1
+        && data.updatedByUid.size() <= 128;
+    }
+
+    // 4. Collection Match Rules
+
+    // Individual Account Records (PII-isolated: owner can only read own doc, Admin manages all)
+    match /accounts/{accountId} {
+      allow get: if isValidId(accountId) && isSignedIn() && (
+        accountId == emailKey() || isAdmin()
+      );
+      allow list: if false;
+      allow create: if isValidId(accountId)
+        && isAdmin()
+        && isValidAccountRecord(incoming())
+        && hasValidAuditOnCreate(incoming())
+        && accountId == incoming().email.replace('[^a-z0-9]', '_');
+      allow update: if isValidId(accountId)
+        && isAdmin()
+        && isValidAccountRecord(incoming())
+        && hasValidAuditOnUpdate(incoming())
+        && incoming().email == existing().email
+        && (
+          accountId != 'alimahfud5_gmail_com'
+          || (incoming().role == 'admin' && incoming().active == true)
+        )
+        && incoming().diff(existing()).affectedKeys().hasOnly([
+          'displayName',
+          'role',
+          'roleLabel',
+          'active',
+          'updatedAt',
+          'updatedByUid'
+        ]);
+      allow delete: if isValidId(accountId)
+        && isAdmin()
+        && accountId != 'alimahfud5_gmail_com';
+    }
+
+    // Admin-Only Directory Summary
+    match /workspace_admin/{docId} {
+      allow get: if isValidId(docId)
+        && docId == 'account_directory'
+        && isAdmin();
+      allow list: if false;
+      allow create: if isValidId(docId)
+        && docId == 'account_directory'
+        && isAdmin()
+        && isValidAccountDirectory(incoming())
+        && hasValidAuditOnCreate(incoming());
+      allow update: if isValidId(docId)
+        && docId == 'account_directory'
+        && isAdmin()
+        && isValidAccountDirectory(incoming())
+        && hasValidAuditOnUpdate(incoming())
+        && incoming().diff(existing()).affectedKeys().hasOnly([
+          'items',
+          'updatedAt',
+          'updatedByUid'
+        ]);
+      allow delete: if false;
+    }
+
+    // Shared Workspace Documents
+    match /workspace/{docId} {
+      allow list: if false;
+
+      // Roster Config & Overrides + Operational Docs: Read by Admin & User
+      allow get: if isValidId(docId)
+        && docId in [
+          'roster_config',
+          'roster_overrides',
+          'rengiat_state',
+          'pam_state',
+          'surat_state'
+        ]
+        && isRegisteredMember();
+
+      allow create: if isValidId(docId) && (
+        (
+          docId == 'roster_config'
+          && isAdmin()
+          && isValidRosterConfig(incoming())
+          && hasValidAuditOnCreate(incoming())
+        ) || (
+          docId == 'roster_overrides'
+          && isAdmin()
+          && isValidRosterOverrides(incoming())
+          && hasValidAuditOnCreate(incoming())
+        ) || (
+          docId == 'rengiat_state'
+          && isRegisteredMember()
+          && isValidRengiatState(incoming())
+          && hasValidAuditOnCreate(incoming())
+        ) || (
+          docId == 'pam_state'
+          && isRegisteredMember()
+          && isValidPamState(incoming())
+          && hasValidAuditOnCreate(incoming())
+        ) || (
+          docId == 'surat_state'
+          && isRegisteredMember()
+          && isValidSuratState(incoming())
+          && hasValidAuditOnCreate(incoming())
+        )
+      );
+
+      allow update: if isValidId(docId) && (
+        (
+          docId == 'roster_config'
+          && isAdmin()
+          && isValidRosterConfig(incoming())
+          && hasValidAuditOnUpdate(incoming())
+          && incoming().diff(existing()).affectedKeys().hasOnly([
+            'header',
+            'personnel',
+            'unitOrder',
+            'pawasAnchor',
+            'lastBackupAt',
+            'updatedAt',
+            'updatedByUid'
+          ])
+        ) || (
+          docId == 'roster_overrides'
+          && isAdmin()
+          && isValidRosterOverrides(incoming())
+          && hasValidAuditOnUpdate(incoming())
+          && incoming().diff(existing()).affectedKeys().hasOnly([
+            'overrides',
+            'updatedAt',
+            'updatedByUid'
+          ])
+        ) || (
+          docId == 'rengiat_state'
+          && isRegisteredMember()
+          && isValidRengiatState(incoming())
+          && hasValidAuditOnUpdate(incoming())
+          && incoming().diff(existing()).affectedKeys().hasOnly([
+            'greeting',
+            'unitLabel',
+            'items',
+            'selectedWaDates',
+            'waPhone',
+            'updatedAt',
+            'updatedByUid'
+          ])
+        ) || (
+          docId == 'pam_state'
+          && isRegisteredMember()
+          && isValidPamState(incoming())
+          && hasValidAuditOnUpdate(incoming())
+          && incoming().diff(existing()).affectedKeys().hasOnly([
+            'activeMode',
+            'drafts',
+            'savedLists',
+            'waPhone',
+            'updatedAt',
+            'updatedByUid'
+          ])
+        ) || (
+          docId == 'surat_state'
+          && isRegisteredMember()
+          && isValidSuratState(incoming())
+          && hasValidAuditOnUpdate(incoming())
+          && incoming().diff(existing()).affectedKeys().hasOnly([
+            'activeMode',
+            'sprin',
+            'biasa',
+            'savedList',
+            'updatedAt',
+            'updatedByUid'
+          ])
+        )
+      );
+
+      allow delete: if false;
+    }
+  }
+}

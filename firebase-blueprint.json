@@ -1,0 +1,407 @@
+{
+  "entities": {
+    "AccountRecord": {
+      "title": "AccountRecord",
+      "description": "Authorized Google account record mapping an email key to a role (admin or user) for RBAC.",
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "Lowercased Google email address of the authorized account.",
+          "minLength": 5,
+          "maxLength": 120
+        },
+        "displayName": {
+          "type": "string",
+          "description": "Display name shown in the dashboard.",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "role": {
+          "type": "string",
+          "description": "Access role determining permissions across personnel and roster menus.",
+          "enum": ["admin", "user"]
+        },
+        "roleLabel": {
+          "type": "string",
+          "description": "Operational role or unit title shown in the UI.",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "active": {
+          "type": "boolean",
+          "description": "Whether the account is currently enabled."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server creation timestamp."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server last update timestamp."
+        },
+        "createdByUid": {
+          "type": "string",
+          "description": "UID of the admin who created this account record.",
+          "minLength": 1,
+          "maxLength": 128
+        },
+        "updatedByUid": {
+          "type": "string",
+          "description": "UID of the admin who last updated this account record.",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      },
+      "required": [
+        "email",
+        "displayName",
+        "role",
+        "roleLabel",
+        "active",
+        "createdAt",
+        "updatedAt",
+        "createdByUid",
+        "updatedByUid"
+      ]
+    },
+    "AccountDirectory": {
+      "title": "AccountDirectory",
+      "description": "Admin-only directory summary listing all registered Admin and User accounts.",
+      "type": "object",
+      "properties": {
+        "items": {
+          "type": "array",
+          "description": "Array of registered account summary objects."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server creation timestamp."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server last update timestamp."
+        },
+        "createdByUid": {
+          "type": "string",
+          "description": "UID of the admin who initialized the directory.",
+          "minLength": 1,
+          "maxLength": 128
+        },
+        "updatedByUid": {
+          "type": "string",
+          "description": "UID of the admin who last updated the directory.",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      },
+      "required": ["items", "createdAt", "updatedAt", "createdByUid", "updatedByUid"]
+    },
+    "RosterConfig": {
+      "title": "RosterConfig",
+      "description": "Shared organizational header, personnel list, unit ordering, and PAWAS anchor configuration. Admin-write, member-read.",
+      "type": "object",
+      "properties": {
+        "header": {
+          "type": "object",
+          "description": "Institutional header lines and signer metadata."
+        },
+        "personnel": {
+          "type": "array",
+          "description": "Ordered list of personnel records."
+        },
+        "unitOrder": {
+          "type": "array",
+          "description": "Ordered list of unit keys."
+        },
+        "pawasAnchor": {
+          "type": "object",
+          "description": "PAWAS rotation anchor date and personnelId."
+        },
+        "lastBackupAt": {
+          "type": "string",
+          "description": "ISO timestamp of last manual backup export.",
+          "maxLength": 64
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server creation timestamp."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server last update timestamp."
+        },
+        "createdByUid": {
+          "type": "string",
+          "description": "UID of the admin who created the roster config.",
+          "minLength": 1,
+          "maxLength": 128
+        },
+        "updatedByUid": {
+          "type": "string",
+          "description": "UID of the admin who last updated the roster config.",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      },
+      "required": [
+        "header",
+        "personnel",
+        "unitOrder",
+        "pawasAnchor",
+        "lastBackupAt",
+        "createdAt",
+        "updatedAt",
+        "createdByUid",
+        "updatedByUid"
+      ]
+    },
+    "RosterOverridesDoc": {
+      "title": "RosterOverridesDoc",
+      "description": "Shared manual shift overrides map for the duty roster. Admin-write, member-read.",
+      "type": "object",
+      "properties": {
+        "overrides": {
+          "type": "object",
+          "description": "Map of personnelId__YYYY-MM-DD keys to shift codes."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server creation timestamp."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server last update timestamp."
+        },
+        "createdByUid": {
+          "type": "string",
+          "description": "UID of the admin who created the overrides document.",
+          "minLength": 1,
+          "maxLength": 128
+        },
+        "updatedByUid": {
+          "type": "string",
+          "description": "UID of the admin who last updated the overrides document.",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      },
+      "required": ["overrides", "createdAt", "updatedAt", "createdByUid", "updatedByUid"]
+    },
+    "RengiatStateDoc": {
+      "title": "RengiatStateDoc",
+      "description": "Shared daily activity plans (Rengiat) state accessible to both Admin and User.",
+      "type": "object",
+      "properties": {
+        "greeting": {
+          "type": "string",
+          "description": "WhatsApp greeting line.",
+          "maxLength": 160
+        },
+        "unitLabel": {
+          "type": "string",
+          "description": "Unit display name for Rengiat reports.",
+          "maxLength": 120
+        },
+        "items": {
+          "type": "array",
+          "description": "List of Rengiat activity items."
+        },
+        "selectedWaDates": {
+          "type": "array",
+          "description": "Selected date keys included in WhatsApp export."
+        },
+        "waPhone": {
+          "type": "string",
+          "description": "Optional WhatsApp destination phone number.",
+          "maxLength": 40
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server creation timestamp."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server last update timestamp."
+        },
+        "createdByUid": {
+          "type": "string",
+          "description": "UID of the member who created the document.",
+          "minLength": 1,
+          "maxLength": 128
+        },
+        "updatedByUid": {
+          "type": "string",
+          "description": "UID of the member who last updated the document.",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      },
+      "required": [
+        "greeting",
+        "unitLabel",
+        "items",
+        "selectedWaDates",
+        "waPhone",
+        "createdAt",
+        "updatedAt",
+        "createdByUid",
+        "updatedByUid"
+      ]
+    },
+    "PamStateDoc": {
+      "title": "PamStateDoc",
+      "description": "Shared PAM AKSI and PAM GIAT roster drafts and saved lists accessible to both Admin and User.",
+      "type": "object",
+      "properties": {
+        "activeMode": {
+          "type": "string",
+          "description": "Currently active PAM mode.",
+          "enum": ["AKSI", "GIAT"]
+        },
+        "drafts": {
+          "type": "object",
+          "description": "Draft objects for AKSI and GIAT."
+        },
+        "savedLists": {
+          "type": "array",
+          "description": "Saved PAM lists (up to 10 items)."
+        },
+        "waPhone": {
+          "type": "string",
+          "description": "Optional WhatsApp destination phone number.",
+          "maxLength": 40
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server creation timestamp."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server last update timestamp."
+        },
+        "createdByUid": {
+          "type": "string",
+          "description": "UID of the member who created the document.",
+          "minLength": 1,
+          "maxLength": 128
+        },
+        "updatedByUid": {
+          "type": "string",
+          "description": "UID of the member who last updated the document.",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      },
+      "required": [
+        "activeMode",
+        "drafts",
+        "savedLists",
+        "waPhone",
+        "createdAt",
+        "updatedAt",
+        "createdByUid",
+        "updatedByUid"
+      ]
+    },
+    "SuratStateDoc": {
+      "title": "SuratStateDoc",
+      "description": "Shared Surat Perintah and Surat Biasa drafts and saved documents accessible to both Admin and User.",
+      "type": "object",
+      "properties": {
+        "activeMode": {
+          "type": "string",
+          "description": "Active document mode.",
+          "enum": ["SPRIN", "BIASA"]
+        },
+        "sprin": {
+          "type": "object",
+          "description": "Current Surat Perintah draft payload."
+        },
+        "biasa": {
+          "type": "object",
+          "description": "Current Surat Biasa draft payload."
+        },
+        "savedList": {
+          "type": "array",
+          "description": "Saved surat archive (up to 10 items)."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server creation timestamp."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server last update timestamp."
+        },
+        "createdByUid": {
+          "type": "string",
+          "description": "UID of the member who created the document.",
+          "minLength": 1,
+          "maxLength": 128
+        },
+        "updatedByUid": {
+          "type": "string",
+          "description": "UID of the member who last updated the document.",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      },
+      "required": [
+        "activeMode",
+        "sprin",
+        "biasa",
+        "savedList",
+        "createdAt",
+        "updatedAt",
+        "createdByUid",
+        "updatedByUid"
+      ]
+    }
+  },
+  "firestore": {
+    "/accounts/{accountId}": {
+      "schema": { "$ref": "#/entities/AccountRecord" },
+      "description": "Individual RBAC account records keyed by sanitized email slug. Readable only by owner (get) or Admin."
+    },
+    "/workspace_admin/account_directory": {
+      "schema": { "$ref": "#/entities/AccountDirectory" },
+      "description": "Admin-only directory of all registered Admin and User accounts."
+    },
+    "/workspace/roster_config": {
+      "schema": { "$ref": "#/entities/RosterConfig" },
+      "description": "Shared personnel list, unit ordering, PAWAS anchor, and organizational header. Writable only by Admin."
+    },
+    "/workspace/roster_overrides": {
+      "schema": { "$ref": "#/entities/RosterOverridesDoc" },
+      "description": "Shared manual shift overrides for the duty roster. Writable only by Admin."
+    },
+    "/workspace/rengiat_state": {
+      "schema": { "$ref": "#/entities/RengiatStateDoc" },
+      "description": "Shared Rengiat state readable and writable by registered Admin and User accounts."
+    },
+    "/workspace/pam_state": {
+      "schema": { "$ref": "#/entities/PamStateDoc" },
+      "description": "Shared Daftar Pers PAM state readable and writable by registered Admin and User accounts."
+    },
+    "/workspace/surat_state": {
+      "schema": { "$ref": "#/entities/SuratStateDoc" },
+      "description": "Shared Buat Surat state readable and writable by registered Admin and User accounts."
+    }
+  }
+}

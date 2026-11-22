@@ -1,0 +1,2855 @@
+{
+  "schema_version": "1.0",
+  "template_id": "sprin_kryd_169_2026",
+  "template_name": "Surat Perintah KRYD - 17 Oktober 2026",
+  "source_file": "169 SPRIN KRYD 17 OKT 2026.docx",
+  "source_analysis": {
+    "page_count": 2,
+    "paragraph_count_nonempty": 24,
+    "table_count": 1,
+    "embedded_image_count": 0,
+    "notes": [
+      "Ekstraksi mencakup teks paragraf, run teks, tabel, dan pengaturan section yang dapat dibaca dari DOCX.",
+      "Posisi visual absolut, bentuk kompleks, cap/stempel, tanda tangan gambar, dan seluruh detail tata letak Word tidak selalu dapat direpresentasikan sempurna oleh JSON.",
+      "Urutan isi dipertahankan pada daftar paragraphs dan tabel disimpan terpisah; renderer perlu menggunakan indeks/anchor untuk menyusun ulang secara visual."
+    ]
+  },
+  "document_settings": {
+    "default_font": null,
+    "page": [
+      {
+        "section_index": 0,
+        "page_width_inches": 8.2681,
+        "page_height_inches": 11.6931,
+        "orientation": "portrait",
+        "margins_inches": {
+          "top": 0.2951,
+          "bottom": 0.1931,
+          "left": 0.7875,
+          "right": 0.4174,
+          "header": 0.5,
+          "footer": 0.5
+        },
+        "header_paragraphs": [
+          ""
+        ],
+        "footer_paragraphs": [
+          ""
+        ]
+      }
+    ]
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "index": 0,
+        "text": "POLRI DAERAH JAWA TENGAH ",
+        "style": "Body Text",
+        "alignment": "center",
+        "format": {
+          "left_indent_pt": 6.55,
+          "right_indent_pt": 295.9,
+          "first_line_indent_pt": null,
+          "space_before_pt": null,
+          "space_after_pt": null,
+          "line_spacing": null,
+          "keep_with_next": null,
+          "page_break_before": null
+        },
+        "runs": [
+          {
+            "text": "POLRI DAERAH JAWA TENGAH ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "text": "RESOR KOTA BESAR SEMARANG",
+        "style": "Body Text",
+        "alignment": "center",
+        "format": {
+          "left_indent_pt": 6.55,
+          "right_indent_pt": 295.9,
+          "first_line_indent_pt": null,
+          "space_before_pt": null,
+          "space_after_pt": null,
+          "line_spacing": null,
+          "keep_with_next": null,
+          "page_break_before": null
+        },
+        "runs": [
+          {
+            "text": "RESOR KOTA BESAR",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "SEMARANG",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "text": "SEKTOR SEMARANG SELATAN",
+        "style": "Body Text",
+        "alignment": "center",
+        "format": {
+          "left_indent_pt": 6.55,
+          "right_indent_pt": 295.9,
+          "first_line_indent_pt": null,
+          "space_before_pt": null,
+          "space_after_pt": null,
+          "line_spacing": null,
+          "keep_with_next": null,
+          "page_break_before": null
+        },
+        "runs": [
+          {
+            "text": "",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "SEKTOR SEMARANG",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "SELATAN",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "text": "SURAT PERINTAH",
+        "style": "Body Text",
+        "alignment": "center",
+        "format": {
+          "left_indent_pt": 0.35,
+          "right_indent_pt": null,
+          "first_line_indent_pt": null,
+          "space_before_pt": 4.05,
+          "space_after_pt": null,
+          "line_spacing": null,
+          "keep_with_next": null,
+          "page_break_before": null
+        },
+        "runs": [
+          {
+            "text": "",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "SURAT",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "PERINTAH",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "text": "Nomor : Sprin/169    / X / HUK.6.6./2026",
+        "style": "Body Text",
+        "alignment": "center",
+        "format": {
+          "left_indent_pt": 1.2,
+          "right_indent_pt": null,
+          "first_line_indent_pt": null,
+          "space_before_pt": 0.15,
+          "space_after_pt": null,
+          "line_spacing": null,
+          "keep_with_next": null,
+          "page_break_before": null
+        },
+        "runs": [
+          {
+            "text": "Nomor :",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "Sprin",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "/",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "169",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "   ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "/ ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "X",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " /",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "HUK.6.6",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": ".",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "/202",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "6",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "text": "Pertimbangan          :\tbahwa dalam rangka pelaksanaan pengamanan kegiatan Rutin Yang Ditingkatkan dengan sasaran Balap Liar dan Tawuran di Wilayah Hukum Polsek Semarang Selatan, dipandang perlu mengeluarkan Surat Perintah.",
+        "style": "Body Text",
+        "alignment": "justify",
+        "format": {
+          "left_indent_pt": 113.4,
+          "right_indent_pt": -2.2,
+          "first_line_indent_pt": -113.4,
+          "space_before_pt": null,
+          "space_after_pt": null,
+          "line_spacing": null,
+          "keep_with_next": null,
+          "page_break_before": null
+        },
+        "runs": [
+          {
+            "text": "Pertimbangan ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "         ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": ":",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "bahwa dalam rangka pelaksanaan pengamanan kegiatan Rutin Yang",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "Ditingkatkan dengan sasaran Balap Liar dan Tawuran di Wilayah",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "Hukum ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "Polsek",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " Semarang Selatan",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": ", dipandang perlu mengeluarkan Surat",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "Perintah",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": ".",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          }
+        ]
+      },
+      {
+        "index": 12,
+        "text": "Dasar\t\t: \t1. \tUndang-undang (UU) Nomor 5 Tahun 2026 tentang Perubahan \tKetiga atas Undang-Undang Nomor 2 Tahun 2002 tentang Kepolisian \tNegara Republik Indonesia.;",
+        "style": "Body Text",
+        "alignment": "justify",
+        "format": {
+          "left_indent_pt": 113.4,
+          "right_indent_pt": -2.2,
+          "first_line_indent_pt": -113.4,
+          "space_before_pt": 0.05,
+          "space_after_pt": null,
+          "line_spacing": null,
+          "keep_with_next": null,
+          "page_break_before": null
+        },
+        "runs": [
+          {
+            "text": "Dasar",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": ": ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "1.",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "Undang-undang (UU) Nomor 5 Tahun 2026 tentang Perubahan ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "Ketiga atas Undang-Undang Nomor 2 Tahun 2002 tentang Kepolisian ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "Negara Republik Indonesia.",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": ";",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          }
+        ]
+      },
+      {
+        "index": 13,
+        "text": "\t2.\tSurat Kepala Kepolisian Daerah Jawa Tengah Nomor: R /1114 /V/ \t\tIPP.3.3.16./ 2026/Ditintelkam tanggal 23 Mei 2026 perihal jukrah \tkonten Genk Kreak/Gangster yang melakukan penutupan jalan \tadanya indikasi tawuran;",
+        "style": "Normal",
+        "alignment": "justify",
+        "format": {
+          "left_indent_pt": 113.4,
+          "right_indent_pt": -2.2,
+          "first_line_indent_pt": -120.5,
+          "space_before_pt": 5.95,
+          "space_after_pt": null,
+          "line_spacing": null,
+          "keep_with_next": null,
+          "page_break_before": null
+        },
+        "runs": [
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "2.",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "Surat ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "Kepala",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "Kepolisian",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " Daerah ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "Jawa",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " Tengah ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "Nomor",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": ":",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "R",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "/1114",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "/V/",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "IPP.3.3.",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "16./",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "2026/",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "Ditintelkam",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "tanggal",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " 23 Mei 2026",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "perihal",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "jukrah",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "konten",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " Genk ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "Kreak",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "/Gangster yang ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "melakukan",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "penutupan",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "jalan",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "adanya",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "indikasi",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "tawuran",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": ";",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          }
+        ]
+      },
+      {
+        "index": 15,
+        "text": "DIPERINTAHKAN",
+        "style": "Body Text",
+        "alignment": "center",
+        "format": {
+          "left_indent_pt": 113.4,
+          "right_indent_pt": -2.2,
+          "first_line_indent_pt": -120.5,
+          "space_before_pt": null,
+          "space_after_pt": null,
+          "line_spacing": null,
+          "keep_with_next": null,
+          "page_break_before": null
+        },
+        "runs": [
+          {
+            "text": "DIPERINTAHKAN",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          }
+        ]
+      },
+      {
+        "index": 17,
+        "text": "Kepada\t      :\tNAMA, PANGKAT, NRP DAN JABATANNYA SEPERTI TERSEBUT DALAM LAMPIRAN SURAT PERINTAH INI;",
+        "style": "Body Text",
+        "alignment": "justify",
+        "format": {
+          "left_indent_pt": 113.4,
+          "right_indent_pt": -2.2,
+          "first_line_indent_pt": -113.4,
+          "space_before_pt": null,
+          "space_after_pt": null,
+          "line_spacing": null,
+          "keep_with_next": null,
+          "page_break_before": null
+        },
+        "runs": [
+          {
+            "text": "Kepada",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "      ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": ":",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "NAMA, PANGKAT",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": ", NRP ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "DAN JABATANNYA SEPERTI TERSEBUT DALAM LAMPIRAN SURAT PERINTAH INI;",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          }
+        ]
+      },
+      {
+        "index": 19,
+        "text": "Untuk                       :\t1. \tdisamping melaksanakan tugas dan tanggungjawabnya sehari – hari \tdiperintah untuk melaksanakan kegiatan Rutin Yang \tDitingkatkan \tdengan sasaran tempat rawab c3 dan balap liar di Wilayah Hukum \tPolsek Semarang Selatan;\t",
+        "style": "Body Text",
+        "alignment": "justify",
+        "format": {
+          "left_indent_pt": 113.4,
+          "right_indent_pt": -2.2,
+          "first_line_indent_pt": -113.4,
+          "space_before_pt": null,
+          "space_after_pt": null,
+          "line_spacing": null,
+          "keep_with_next": null,
+          "page_break_before": null
+        },
+        "runs": [
+          {
+            "text": "Untuk",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "                       ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": ":",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "1. ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "disamping melaksanakan tugas dan",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " tanggungjawabnya sehari – hari",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "diperintah untuk melaksanakan kegiatan Rutin Yang ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "Ditingkatka",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "n ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "dengan",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " sasaran ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "tempat rawab c3 dan balap liar",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " di Wilayah Hukum ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "Polsek Semarang Selatan;",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          }
+        ]
+      },
+      {
+        "index": 21,
+        "text": "\t2.\tkegiatan dilaksanakan pada hari Sabtu tanggal 17 Oktober 2026 \tpukul 23.00 Wib s.d selesai di Wilayah hukum Polsek Semarang \tSelatan (Strong point Jl. Kompol Maksum Semarang);",
+        "style": "Body Text",
+        "alignment": "justify",
+        "format": {
+          "left_indent_pt": 113.4,
+          "right_indent_pt": -2.2,
+          "first_line_indent_pt": -113.4,
+          "space_before_pt": null,
+          "space_after_pt": null,
+          "line_spacing": null,
+          "keep_with_next": null,
+          "page_break_before": null
+        },
+        "runs": [
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "2.",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "kegiatan dilaksanakan pada",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " hari ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "Sabtu tanggal ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "17",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "Oktober",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "2026",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "pukul 2",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "3",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": ".00 Wib",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " s.d selesai",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " di Wilayah hukum Polsek Sem",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "arang",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "\tSelatan",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " (Strong point Jl. ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "Kompol",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "Maksum",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " Semarang)",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": ";",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          }
+        ]
+      },
+      {
+        "index": 23,
+        "text": "\t3.\t\tapel kesiapan pukul 22.00 WIB di Mapolsek Semarang Selatan;",
+        "style": "Body Text",
+        "alignment": "justify",
+        "format": {
+          "left_indent_pt": 113.4,
+          "right_indent_pt": -2.2,
+          "first_line_indent_pt": -113.4,
+          "space_before_pt": null,
+          "space_after_pt": null,
+          "line_spacing": null,
+          "keep_with_next": null,
+          "page_break_before": null
+        },
+        "runs": [
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "3.",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "apel ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "kesiapan",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " pukul ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "22",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": ".00 WIB di ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": "Mapolsek",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": " Semarang Selatan",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          },
+          {
+            "text": ";",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          }
+        ]
+      },
+      {
+        "index": 25,
+        "text": "\t4.\t\tmelaporkan hasil pelaksanaan tugas kepada Kapolsek;",
+        "style": "Normal",
+        "alignment": "default",
+        "format": {
+          "left_indent_pt": 113.4,
+          "right_indent_pt": -2.2,
+          "first_line_indent_pt": -113.4,
+          "space_before_pt": null,
+          "space_after_pt": null,
+          "line_spacing": null,
+          "keep_with_next": null,
+          "page_break_before": null
+        },
+        "runs": [
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "4",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": ".",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "melaporkan hasil pelaksanaan tugas kepada",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "Kapolsek;",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          }
+        ]
+      },
+      {
+        "index": 27,
+        "text": "\t5.\tmelaksanakan perintah ini dengan seksama dan penuh rasa \ttanggung jawab.",
+        "style": "Normal",
+        "alignment": "justify",
+        "format": {
+          "left_indent_pt": 113.4,
+          "right_indent_pt": -2.2,
+          "first_line_indent_pt": -113.4,
+          "space_before_pt": null,
+          "space_after_pt": null,
+          "line_spacing": null,
+          "keep_with_next": null,
+          "page_break_before": null
+        },
+        "runs": [
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "5",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": ".",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "melaksanakan perintah in",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "i dengan seksama dan penuh rasa",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "tanggung jawab.",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          }
+        ]
+      },
+      {
+        "index": 28,
+        "text": "Selesai.",
+        "style": "Body Text",
+        "alignment": "default",
+        "format": {
+          "left_indent_pt": 113.4,
+          "right_indent_pt": null,
+          "first_line_indent_pt": -120.5,
+          "space_before_pt": 0.05,
+          "space_after_pt": null,
+          "line_spacing": null,
+          "keep_with_next": null,
+          "page_break_before": null
+        },
+        "runs": [
+          {
+            "text": "Selesai.",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          }
+        ]
+      },
+      {
+        "index": 36,
+        "text": "Tembusan :",
+        "style": "Body Text",
+        "alignment": "default",
+        "format": {
+          "left_indent_pt": null,
+          "right_indent_pt": null,
+          "first_line_indent_pt": null,
+          "space_before_pt": 6.1,
+          "space_after_pt": null,
+          "line_spacing": null,
+          "keep_with_next": null,
+          "page_break_before": null
+        },
+        "runs": [
+          {
+            "text": "Tembusan :",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": null
+          }
+        ]
+      },
+      {
+        "index": 37,
+        "text": "Kapolrestabes Semarang",
+        "style": "List Paragraph",
+        "alignment": "default",
+        "format": {
+          "left_indent_pt": 7.1,
+          "right_indent_pt": null,
+          "first_line_indent_pt": 0.2,
+          "space_before_pt": 0.05,
+          "space_after_pt": null,
+          "line_spacing": null,
+          "keep_with_next": null,
+          "page_break_before": null
+        },
+        "runs": [
+          {
+            "text": "Kapolrestabes",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "Semarang",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          }
+        ]
+      },
+      {
+        "index": 38,
+        "text": "Kabag Ops Polrestabes Smg",
+        "style": "List Paragraph",
+        "alignment": "default",
+        "format": {
+          "left_indent_pt": 7.1,
+          "right_indent_pt": null,
+          "first_line_indent_pt": 0.2,
+          "space_before_pt": 0.15,
+          "space_after_pt": null,
+          "line_spacing": null,
+          "keep_with_next": null,
+          "page_break_before": null
+        },
+        "runs": [
+          {
+            "text": "Kabag Ops Polrestabes",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "Smg",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          }
+        ]
+      },
+      {
+        "index": 39,
+        "text": "  POLRI DAERAH JAWA TENGAH\t            LAMPIRAN  SPRIN  KAPOLSEK  SMG SLTN",
+        "style": "Normal",
+        "alignment": "default",
+        "format": {
+          "left_indent_pt": null,
+          "right_indent_pt": null,
+          "first_line_indent_pt": null,
+          "space_before_pt": null,
+          "space_after_pt": null,
+          "line_spacing": null,
+          "keep_with_next": null,
+          "page_break_before": null
+        },
+        "runs": [
+          {
+            "text": "",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " POLRI ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "DAERAH JAWA TENGAH",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "           ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "LAMPIRAN ",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "SPRIN ",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "KAPOLSEK ",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "SMG SLTN",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          }
+        ]
+      },
+      {
+        "index": 40,
+        "text": "RESOR KOTA BESAR SEMARANG \t \t NOMOR   : SPRIN /    169    /X/ HUK.6.6./2026",
+        "style": "Normal",
+        "alignment": "default",
+        "format": {
+          "left_indent_pt": null,
+          "right_indent_pt": null,
+          "first_line_indent_pt": null,
+          "space_before_pt": null,
+          "space_after_pt": null,
+          "line_spacing": null,
+          "keep_with_next": null,
+          "page_break_before": null
+        },
+        "runs": [
+          {
+            "text": "RESOR",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "KOTA",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "BESAR SEMARANG",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "\t ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " NOMOR",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "   ",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": ": SPRIN /    ",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "169",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "    /",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "X",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "/",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "HUK",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": ".",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "6",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": ".",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "6",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "./",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "2026",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          }
+        ]
+      },
+      {
+        "index": 41,
+        "text": "  SEKTOR SEMARANG SELATAN\t\t TANGGAL:         16                OKTOBER  2026",
+        "style": "Normal",
+        "alignment": "default",
+        "format": {
+          "left_indent_pt": null,
+          "right_indent_pt": null,
+          "first_line_indent_pt": null,
+          "space_before_pt": null,
+          "space_after_pt": null,
+          "line_spacing": null,
+          "keep_with_next": null,
+          "page_break_before": null
+        },
+        "runs": [
+          {
+            "text": "",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "  ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "SEKTOR SEMARANG SELATAN",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "\t",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " TANGGAL",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": ":        ",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " ",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "16",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "     ",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "         ",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "  ",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "OKTOBER",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "  ",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "20",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "2",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "6",
+            "bold": null,
+            "italic": null,
+            "underline": true,
+            "font": null,
+            "size_pt": 12.0
+          }
+        ]
+      },
+      {
+        "index": 43,
+        "text": "DAFTAR NAMA PERS KRYD",
+        "style": "Normal",
+        "alignment": "center",
+        "format": {
+          "left_indent_pt": null,
+          "right_indent_pt": null,
+          "first_line_indent_pt": null,
+          "space_before_pt": null,
+          "space_after_pt": null,
+          "line_spacing": null,
+          "keep_with_next": null,
+          "page_break_before": null
+        },
+        "runs": [
+          {
+            "text": "DAFTAR NAMA ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "PERS ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "KRYD",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          }
+        ]
+      },
+      {
+        "index": 44,
+        "text": "SABTU 17 OKTOBER 2026",
+        "style": "Normal",
+        "alignment": "center",
+        "format": {
+          "left_indent_pt": null,
+          "right_indent_pt": null,
+          "first_line_indent_pt": null,
+          "space_before_pt": null,
+          "space_after_pt": null,
+          "line_spacing": null,
+          "keep_with_next": null,
+          "page_break_before": null
+        },
+        "runs": [
+          {
+            "text": "SABTU ",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": "17",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " OKTOBER",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          },
+          {
+            "text": " 2026",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font": null,
+            "size_pt": 12.0
+          }
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "table_index": 0,
+        "rows": 17,
+        "columns": 6,
+        "style": "Normal Table",
+        "data": [
+          [
+            "NO",
+            "NAMA",
+            "PANGKAT",
+            "NRP",
+            "JABATAN",
+            "KET"
+          ],
+          [
+            "NO",
+            "NAMA",
+            "PANGKAT",
+            "NRP",
+            "JABATAN",
+            "KET"
+          ],
+          [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            ""
+          ],
+          [
+            "1",
+            "KISWORO, S.H.",
+            "IPTU",
+            "71070044",
+            "KANIT BINMAS",
+            "PADAL"
+          ],
+          [
+            "2",
+            "HARSONO",
+            "IPTU",
+            "74020279",
+            "PS. KANIT SAMAPTA",
+            "SDA"
+          ],
+          [
+            "3",
+            "AGUS NUR YANTO,S.H.",
+            "IPTU",
+            "73090344",
+            "PS. KANITLANTAS",
+            "SDA"
+          ],
+          [
+            "4",
+            "Dr. TRI SUTRISNO,S.H.,M.H.",
+            "IPTU",
+            "72050205",
+            "KANIT RESKRIM",
+            "SDA"
+          ],
+          [
+            "5",
+            "ADI GESIT SATATA",
+            "AIPTU",
+            "72120148",
+            "BANIT SAMAPTA",
+            "ANGGOTA"
+          ],
+          [
+            "6",
+            "WARDOYO",
+            "AIPDA",
+            "83101282",
+            "BANIT SAMAPTA",
+            "SDA"
+          ],
+          [
+            "7",
+            "ERI SETIAWAN",
+            "AIPDA",
+            "85081180",
+            "BANIT LANTAS",
+            "SDA"
+          ],
+          [
+            "8",
+            "METRIZAL, SH",
+            "AIPTU",
+            "79051605",
+            "BHABIN RANDUSARI",
+            "SDA"
+          ],
+          [
+            "9",
+            "HARDIYANTO",
+            "AIPTU",
+            "79010899",
+            "BANIT INTEL",
+            "SDA"
+          ],
+          [
+            "10",
+            "SUKIJAN",
+            "AIPTU",
+            "69010254",
+            "PS.PANITOPSNAL 1 UNIT RESKRIM",
+            "SDA"
+          ],
+          [
+            "11",
+            "AGUNG WITONO",
+            "AIPDA",
+            "84121525",
+            "BANIT RESKRIM",
+            "SDA"
+          ],
+          [
+            "12",
+            "DEDY SETYO WIDODO",
+            "AIPDA",
+            "84120839",
+            "BANIT PROPAM",
+            "SDA"
+          ],
+          [
+            "13",
+            "DODIK EKO ARIPRABOWO , S.H.",
+            "AIPDA",
+            "85061749",
+            "PS. PANIT 2 BINMAS",
+            "SDA"
+          ],
+          [
+            "14",
+            "JATMIKO NUR P , S.H.",
+            "AIPDA",
+            "84051714",
+            "PS.PANIT 2 SAMAPTA",
+            "SDA"
+          ]
+        ],
+        "column_widths_inches": [
+          0.42430555555555555,
+          1.8701388888888888,
+          0.9847222222222223,
+          0.9840277777777777,
+          1.8708333333333333,
+          0.8854166666666666
+        ]
+      }
+    ]
+  },
+  "form_fields": [
+    {
+      "key": "nomor_surat",
+      "label": "Nomor Surat",
+      "type": "text",
+      "suggested_source": "Nomor Sprin"
+    },
+    {
+      "key": "tanggal_surat",
+      "label": "Tanggal Surat",
+      "type": "date",
+      "suggested_source": "Tanggal dikeluarkan"
+    },
+    {
+      "key": "pertimbangan",
+      "label": "Pertimbangan",
+      "type": "textarea"
+    },
+    {
+      "key": "dasar_hukum",
+      "label": "Dasar",
+      "type": "repeater"
+    },
+    {
+      "key": "penerima_perintah",
+      "label": "Kepada",
+      "type": "textarea"
+    },
+    {
+      "key": "isi_perintah",
+      "label": "Untuk",
+      "type": "repeater"
+    },
+    {
+      "key": "hari_tanggal_kegiatan",
+      "label": "Hari/Tanggal Kegiatan",
+      "type": "date_text"
+    },
+    {
+      "key": "waktu_kegiatan",
+      "label": "Waktu Kegiatan",
+      "type": "text"
+    },
+    {
+      "key": "lokasi_kegiatan",
+      "label": "Lokasi Kegiatan",
+      "type": "text"
+    },
+    {
+      "key": "waktu_apel",
+      "label": "Waktu Apel",
+      "type": "text"
+    },
+    {
+      "key": "penandatangan_nama",
+      "label": "Nama Penandatangan",
+      "type": "text"
+    },
+    {
+      "key": "penandatangan_pangkat",
+      "label": "Pangkat Penandatangan",
+      "type": "text"
+    },
+    {
+      "key": "penandatangan_nrp",
+      "label": "NRP Penandatangan",
+      "type": "text"
+    },
+    {
+      "key": "daftar_personel",
+      "label": "Daftar Personel Lampiran",
+      "type": "table",
+      "columns": [
+        "no",
+        "nama",
+        "pangkat",
+        "nrp",
+        "jabatan",
+        "keterangan"
+      ]
+    }
+  ],
+  "rendering_requirements": {
+    "preserve_original_docx_as_layout_master": true,
+    "recommended_output": [
+      "DOCX",
+      "PDF"
+    ],
+    "page_overflow": "Continue content on next page; do not clip text or signature block.",
+    "repeat_table_header": true,
+    "signature_block": "Keep together where possible; if insufficient space, move the complete block to the next page.",
+    "editable_formatting": [
+      "font",
+      "font_size",
+      "alignment",
+      "line_spacing",
+      "paragraph_spacing",
+      "margins",
+      "table_widths",
+      "cell_alignment",
+      "tab_stops"
+    ]
+  }
+}

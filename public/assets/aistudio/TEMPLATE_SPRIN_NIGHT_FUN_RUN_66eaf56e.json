@@ -1,0 +1,722 @@
+{
+  "template_name": "SURAT PERINTAH DAN LAMPIRAN PERSONEL - NIGHT FUN RUN HUT KORPRI",
+  "source_document": "1569 SPRIN_PAM NIGHT FUN RUN HUT KORPRI 16 NOV 2026.docx",
+  "purpose": "Konfigurasi JSON untuk merekonstruksi dokumen surat dinas Polri dengan kesetiaan tata letak tinggi.",
+  "document_profile": {
+    "page_count_source": 5,
+    "paper": "A4",
+    "font_policy": {
+      "preserve_source_fonts": true,
+      "preserve_font_sizes": true,
+      "preserve_bold_italic_underline": true,
+      "preserve_character_spacing": true,
+      "default_instruction": "Jangan melakukan normalisasi font, ukuran huruf, atau jarak karakter. Gunakan format masing-masing paragraf/run dari sumber."
+    },
+    "paragraph_policy": {
+      "preserve_alignment": true,
+      "preserve_indentation": true,
+      "preserve_first_line_indent": true,
+      "preserve_left_right_indent": true,
+      "preserve_tabs_and_tab_stops": true,
+      "preserve_line_spacing": true,
+      "preserve_space_before_after": true,
+      "preserve_keep_with_next_and_page_breaks": true,
+      "preserve_manual_line_breaks": true
+    },
+    "page_flow": {
+      "preserve_page_count_when_content_unchanged": true,
+      "do_not_reflow_or_shrink_to_fit": true,
+      "page_break_rule": "Jika isi melewati batas bawah halaman, pindahkan blok/baris utuh ke halaman berikutnya. Jangan menimpa margin bawah, tanda tangan, cap, atau nomor halaman.",
+      "repeat_headers": "Ulangi kepala tabel pada halaman lanjutan sesuai sumber. Header identitas lampiran pada halaman 3 dan 5 dipertahankan sebagai blok tersendiri."
+    }
+  },
+  "page_sections": [
+    {
+      "section": 1,
+      "paper": {
+        "size": "A4",
+        "width_in": 8.271,
+        "height_in": 11.694,
+        "orientation": "portrait"
+      },
+      "margins_in": {
+        "top": 0.736,
+        "bottom": 0.194,
+        "left": 0.885,
+        "right": 0.689
+      },
+      "header_footer": {
+        "header_distance_in": null,
+        "footer_distance_in": null,
+        "different_first_page": false,
+        "header_text_in_docx_header_part": [],
+        "footer_text_in_docx_footer_part": [],
+        "note": "Header halaman pada dokumen sumber sebagian besar dibuat sebagai paragraf/tabel isi halaman, bukan header otomatis Word."
+      }
+    },
+    {
+      "section": 2,
+      "paper": {
+        "size": "A4",
+        "width_in": 8.271,
+        "height_in": 11.694,
+        "orientation": "portrait"
+      },
+      "margins_in": {
+        "top": 0.708,
+        "bottom": 0.194,
+        "left": 0.885,
+        "right": 0.689
+      },
+      "header_footer": {
+        "header_distance_in": null,
+        "footer_distance_in": null,
+        "different_first_page": false,
+        "header_text_in_docx_header_part": [],
+        "footer_text_in_docx_footer_part": [],
+        "note": "Header halaman pada dokumen sumber sebagian besar dibuat sebagai paragraf/tabel isi halaman, bukan header otomatis Word."
+      }
+    },
+    {
+      "section": 3,
+      "paper": {
+        "size": "A4",
+        "width_in": 8.271,
+        "height_in": 11.694,
+        "orientation": "portrait"
+      },
+      "margins_in": {
+        "top": 0.736,
+        "bottom": 0.194,
+        "left": 0.885,
+        "right": 0.689
+      },
+      "header_footer": {
+        "header_distance_in": null,
+        "footer_distance_in": null,
+        "different_first_page": false,
+        "header_text_in_docx_header_part": [],
+        "footer_text_in_docx_footer_part": [],
+        "note": "Header halaman pada dokumen sumber sebagian besar dibuat sebagai paragraf/tabel isi halaman, bukan header otomatis Word."
+      }
+    },
+    {
+      "section": 4,
+      "paper": {
+        "size": "A4",
+        "width_in": 8.271,
+        "height_in": 11.694,
+        "orientation": "portrait"
+      },
+      "margins_in": {
+        "top": 0.736,
+        "bottom": 0.194,
+        "left": 0.885,
+        "right": 0.689
+      },
+      "header_footer": {
+        "header_distance_in": null,
+        "footer_distance_in": null,
+        "different_first_page": false,
+        "header_text_in_docx_header_part": [],
+        "footer_text_in_docx_footer_part": [],
+        "note": "Header halaman pada dokumen sumber sebagian besar dibuat sebagai paragraf/tabel isi halaman, bukan header otomatis Word."
+      }
+    },
+    {
+      "section": 5,
+      "paper": {
+        "size": "A4",
+        "width_in": 8.271,
+        "height_in": 11.694,
+        "orientation": "portrait"
+      },
+      "margins_in": {
+        "top": 0.736,
+        "bottom": 0.194,
+        "left": 0.885,
+        "right": 0.689
+      },
+      "header_footer": {
+        "header_distance_in": null,
+        "footer_distance_in": null,
+        "different_first_page": false,
+        "header_text_in_docx_header_part": [],
+        "footer_text_in_docx_footer_part": [],
+        "note": "Header halaman pada dokumen sumber sebagian besar dibuat sebagai paragraf/tabel isi halaman, bukan header otomatis Word."
+      }
+    },
+    {
+      "section": 6,
+      "paper": {
+        "size": "A4",
+        "width_in": 8.271,
+        "height_in": 11.694,
+        "orientation": "portrait"
+      },
+      "margins_in": {
+        "top": 0.944,
+        "bottom": 0.194,
+        "left": 0.492,
+        "right": 0.295
+      },
+      "header_footer": {
+        "header_distance_in": null,
+        "footer_distance_in": null,
+        "different_first_page": false,
+        "header_text_in_docx_header_part": [],
+        "footer_text_in_docx_footer_part": [],
+        "note": "Header halaman pada dokumen sumber sebagian besar dibuat sebagai paragraf/tabel isi halaman, bukan header otomatis Word."
+      }
+    },
+    {
+      "section": 7,
+      "paper": {
+        "size": "A4",
+        "width_in": 8.271,
+        "height_in": 11.694,
+        "orientation": "portrait"
+      },
+      "margins_in": {
+        "top": 0.736,
+        "bottom": 0.194,
+        "left": 0.492,
+        "right": 0.295
+      },
+      "header_footer": {
+        "header_distance_in": null,
+        "footer_distance_in": null,
+        "different_first_page": false,
+        "header_text_in_docx_header_part": [],
+        "footer_text_in_docx_footer_part": [],
+        "note": "Header halaman pada dokumen sumber sebagian besar dibuat sebagai paragraf/tabel isi halaman, bukan header otomatis Word."
+      }
+    },
+    {
+      "section": 8,
+      "paper": {
+        "size": "A4",
+        "width_in": 8.271,
+        "height_in": 11.694,
+        "orientation": "portrait"
+      },
+      "margins_in": {
+        "top": 0.736,
+        "bottom": 0.194,
+        "left": 0.492,
+        "right": 0.295
+      },
+      "header_footer": {
+        "header_distance_in": null,
+        "footer_distance_in": null,
+        "different_first_page": false,
+        "header_text_in_docx_header_part": [],
+        "footer_text_in_docx_footer_part": [],
+        "note": "Header halaman pada dokumen sumber sebagian besar dibuat sebagai paragraf/tabel isi halaman, bukan header otomatis Word."
+      }
+    },
+    {
+      "section": 9,
+      "paper": {
+        "size": "A4",
+        "width_in": 8.271,
+        "height_in": 11.694,
+        "orientation": "portrait"
+      },
+      "margins_in": {
+        "top": 0.444,
+        "bottom": 0.194,
+        "left": 0.492,
+        "right": 0.295
+      },
+      "header_footer": {
+        "header_distance_in": null,
+        "footer_distance_in": null,
+        "different_first_page": false,
+        "header_text_in_docx_header_part": [],
+        "footer_text_in_docx_footer_part": [],
+        "note": "Header halaman pada dokumen sumber sebagian besar dibuat sebagai paragraf/tabel isi halaman, bukan header otomatis Word."
+      }
+    }
+  ],
+  "layout_sensitive_elements": {
+    "letterhead": {
+      "alignment": "center",
+      "position": "kiri_atas_area_halaman",
+      "lines": [
+        "KEPOLISIAN NEGARA REPUBLIK INDONESIA",
+        "DAERAH JAWA TENGAH",
+        "RESOR KOTA BESAR SEMARANG"
+      ],
+      "rules": [
+        "Posisi kop berada di bagian kiri-atas sesuai susunan visual sumber; blok teks kop rata tengah pada area kopnya, bukan dipusatkan terhadap seluruh lebar halaman.",
+        "Pertahankan tab, indentasi, jarak antarbaris, ukuran huruf, dan garis pemisah jika ada.",
+        "Jangan menambahkan logo jika tidak terdapat pada sumber. Jika logo diberikan kemudian, tempatkan pada koordinat/sel yang disediakan tanpa menggeser teks kop."
+      ]
+    },
+    "title_block": {
+      "title": "SURAT PERINTAH",
+      "alignment": "center",
+      "number_line": "Nomor :Sprin/1569/XI/HUK.6.6./2026",
+      "preserve_underline_and_tabs": true
+    },
+    "signature": {
+      "preserve_original_position": true,
+      "reserve_vertical_space": true,
+      "do_not_split_signature_block": true,
+      "name_and_rank": "M. FAISAL PERDANA, S.I.K. / AJUN KOMISARIS BESAR POLISI NRP 82111161",
+      "stampel": {
+        "preserve_if_present": true,
+        "do_not_invent_or_generate": true,
+        "placement": "area tanda tangan sesuai dokumen sumber",
+        "must_not_overlap": [
+          "nama pejabat",
+          "pangkat/NRP",
+          "teks isi",
+          "margin bawah"
+        ]
+      }
+    },
+    "page_numbering": {
+      "preserve_source_style": true,
+      "position": "header_kanan_atau_sesuai_blok_kepala_halaman_sumber",
+      "format_examples": [
+        "2 SPRIN KAPOLRESTABES SEMARANG",
+        "2 LAMPIRAN SPRIN KAPOLRESTABES SEMARANG"
+      ],
+      "continuity": "Nomor halaman dan identitas dokumen harus sesuai urutan halaman; jangan menganggap nomor halaman tercetak sebagai footer otomatis."
+    },
+    "tables": {
+      "preserve_grid": true,
+      "preserve_borders": true,
+      "preserve_column_widths": true,
+      "preserve_row_heights": true,
+      "preserve_cell_margins": true,
+      "preserve_vertical_alignment": true,
+      "preserve_repeating_header_rows": true,
+      "prevent_row_split_when_possible": true
+    },
+    "logo": {
+      "source_contains_embedded_image": false,
+      "instruction": "Tidak ditemukan gambar/logo tertanam pada file sumber. Jangan membuat logo pengganti atau menggeser kop. Jika aset logo disediakan, gunakan file asli dan pertahankan rasio aspek."
+    },
+    "stampel": {
+      "source_contains_embedded_image": false,
+      "instruction": "Tidak ditemukan gambar cap/stempel tertanam pada file sumber. Siapkan ruang sesuai blok tanda tangan; jangan menggambar cap fiktif."
+    }
+  },
+  "tables_from_source": [
+    {
+      "table_no": 1,
+      "rows": 20,
+      "columns": 7,
+      "autofit": false,
+      "borders": {
+        "top": {
+          "val": "single",
+          "sz": "12",
+          "space": "0",
+          "color": "000000"
+        },
+        "left": {
+          "val": "single",
+          "sz": "12",
+          "space": "0",
+          "color": "000000"
+        },
+        "bottom": {
+          "val": "single",
+          "sz": "12",
+          "space": "0",
+          "color": "000000"
+        },
+        "right": {
+          "val": "single",
+          "sz": "12",
+          "space": "0",
+          "color": "000000"
+        },
+        "insideH": {
+          "val": "single",
+          "sz": "12",
+          "space": "0",
+          "color": "000000"
+        },
+        "insideV": {
+          "val": "single",
+          "sz": "12",
+          "space": "0",
+          "color": "000000"
+        }
+      },
+      "content": [
+        {
+          "row": 1,
+          "cells": [
+            "\nNO",
+            "\nNAMA",
+            "\nPANGKAT",
+            "\nNRP",
+            "JABATAN",
+            "JABATAN",
+            "\nKET"
+          ]
+        },
+        {
+          "row": 2,
+          "cells": [
+            "\nNO",
+            "\nNAMA",
+            "\nPANGKAT",
+            "\nNRP",
+            "STRUKTURAL",
+            "KEGIATAN",
+            "\nKET"
+          ]
+        },
+        {
+          "row": 3,
+          "cells": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ]
+        },
+        {
+          "row": 4,
+          "cells": [
+            "\n1",
+            "ERLIN TANG JAYA, S.H. S.I.K., M.H.",
+            "KOMBES POL",
+            "\n78061264",
+            "KAPOLRESTABES SMG",
+            "\nP. JAWAB",
+            ""
+          ]
+        },
+        {
+          "row": 5,
+          "cells": [
+            "2",
+            "M. FAISAL PERDANA, S.I.K.",
+            "AKBP",
+            "82111161",
+            "WAKAPOLRESTABES SMG",
+            "WAKIL. P. JAWAB",
+            ""
+          ]
+        },
+        {
+          "row": 6,
+          "cells": [
+            "3",
+            "ASEP SUPIYANTO, S.Sos, MH",
+            "AKBP",
+            "73110617",
+            "KABAGOPS",
+            "KARENDALPAM",
+            ""
+          ]
+        },
+        {
+          "row": 7,
+          "cells": [
+            "4",
+            "GINYONO, S.H.",
+            "AKP",
+            "70100153",
+            "WAKAPOLSEK SMG SELATAN",
+            "KALAKPAM",
+            ""
+          ]
+        },
+        {
+          "row": 8,
+          "cells": [
+            "5",
+            "SUBIANTO, S.H.",
+            "IPTU",
+            "72100003",
+            "KANIT INTELKAM",
+            "PADAL",
+            ""
+          ]
+        },
+        {
+          "row": 9,
+          "cells": [
+            "6",
+            "AGUS PURNOMO",
+            "AIPTU",
+            "78081511",
+            "POLSEK SMG SELATAN",
+            "LOKASI GUBERNURAN",
+            ""
+          ]
+        },
+        {
+          "row": 10,
+          "cells": [
+            "7",
+            "SUTADI DWI SETYONO",
+            "AIPTU",
+            "82090194",
+            "POLSEK SMG SELATAN",
+            "SDA",
+            ""
+          ]
+        },
+        {
+          "row": 11,
+          "cells": [
+            "8",
+            "SINAR EKO PANUNTUN",
+            "AIPDA",
+            "84120677",
+            "POLSEK SMG SELATAN",
+            "SDA",
+            ""
+          ]
+        },
+        {
+          "row": 12,
+          "cells": [
+            "9",
+            "ANTON RAHARDJO, S.H.",
+            "AIPTU",
+            "80100908",
+            "POLSEK SMG SELATAN",
+            "PAMTUP",
+            ""
+          ]
+        },
+        {
+          "row": 13,
+          "cells": [
+            "10",
+            "GUNTUR CAHYO UTOMO, S.H.",
+            "AIPDA",
+            "86020949",
+            "SATINTELKAM",
+            "SDA",
+            ""
+          ]
+        },
+        {
+          "row": 14,
+          "cells": [
+            "11",
+            "ARIS HERU PRASETIYA",
+            "BRIPKA",
+            "89010745",
+            "SATINTELKAM",
+            "SDA",
+            ""
+          ]
+        },
+        {
+          "row": 15,
+          "cells": [
+            "12",
+            "TAUFIKURRAHMAN",
+            "AIPTU",
+            "76040696",
+            "POLSEK SMG SELATAN",
+            "BUNDARAN AIR MANCUR",
+            ""
+          ]
+        },
+        {
+          "row": 16,
+          "cells": [
+            "13",
+            "METRIZAL, SH",
+            "AIPTU",
+            "79051605",
+            "POLSEK SMG SELATAN",
+            "TL KFC PANDANARAN",
+            ""
+          ]
+        },
+        {
+          "row": 17,
+          "cells": [
+            "14",
+            "CANDRA MARMESA, SH",
+            "AIPDA",
+            "84091212",
+            "POLSEK SMG SELATAN",
+            "TL EKA KARYA",
+            ""
+          ]
+        },
+        {
+          "row": 18,
+          "cells": [
+            "15",
+            "MUSLIH",
+            "AIPDA",
+            "78041138",
+            "POLSEK SMG SELATAN",
+            "POS TUGU MUDA",
+            ""
+          ]
+        },
+        {
+          "row": 19,
+          "cells": [
+            "16",
+            "A ADI WIDYANTORO, SH.",
+            "AIPTU",
+            "84030769",
+            "POLSEK SMG SELATAN",
+            "TL KARYADI",
+            ""
+          ]
+        },
+        {
+          "row": 20,
+          "cells": [
+            "17",
+            "YUDHA SEPTYAWAN",
+            "AIPDA",
+            "85090287",
+            "POLSEK SMG SELATAN",
+            "TL. KYAISALEH",
+            ""
+          ]
+        }
+      ],
+      "format_instruction": "Pertahankan jumlah kolom, lebar relatif, garis vertikal/horizontal, tinggi baris, perataan sel, dan pemenggalan teks. Jangan mengganti tabel menjadi teks biasa."
+    },
+    {
+      "table_no": 2,
+      "rows": 4,
+      "columns": 7,
+      "autofit": false,
+      "borders": {
+        "top": {
+          "val": "single",
+          "sz": "12",
+          "space": "0",
+          "color": "000000"
+        },
+        "left": {
+          "val": "single",
+          "sz": "12",
+          "space": "0",
+          "color": "000000"
+        },
+        "bottom": {
+          "val": "single",
+          "sz": "12",
+          "space": "0",
+          "color": "000000"
+        },
+        "right": {
+          "val": "single",
+          "sz": "12",
+          "space": "0",
+          "color": "000000"
+        },
+        "insideH": {
+          "val": "single",
+          "sz": "12",
+          "space": "0",
+          "color": "000000"
+        },
+        "insideV": {
+          "val": "single",
+          "sz": "12",
+          "space": "0",
+          "color": "000000"
+        }
+      },
+      "content": [
+        {
+          "row": 1,
+          "cells": [
+            "\nNO",
+            "\nNAMA",
+            "\nPANGKAT",
+            "\nNRP",
+            "JABATAN",
+            "JABATAN",
+            "\nKET"
+          ]
+        },
+        {
+          "row": 2,
+          "cells": [
+            "\nNO",
+            "\nNAMA",
+            "\nPANGKAT",
+            "\nNRP",
+            "STRUKTURAL",
+            "KEGIATAN",
+            "\nKET"
+          ]
+        },
+        {
+          "row": 3,
+          "cells": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ]
+        },
+        {
+          "row": 4,
+          "cells": [
+            "\n18",
+            "\nI YADI YANTO SUPYAN",
+            "\nAIPTU",
+            "\n74020269",
+            "POLSEK SMG SELATAN",
+            "SIMPANG INDOMARET VETERAN",
+            ""
+          ]
+        }
+      ],
+      "format_instruction": "Pertahankan jumlah kolom, lebar relatif, garis vertikal/horizontal, tinggi baris, perataan sel, dan pemenggalan teks. Jangan mengganti tabel menjadi teks biasa."
+    }
+  ],
+  "content_map": {
+    "page_1": "Kop, judul Surat Perintah, nomor, pertimbangan, dasar, DIPERINTAHKAN, kepada, untuk.",
+    "page_2": "Lanjutan perintah, selesai, tempat/tanggal dikeluarkan, blok pejabat penandatangan, tembusan.",
+    "page_3": "Kop lampiran, identitas lampiran, judul daftar personel, tabel personel.",
+    "page_4": "Lanjutan tabel personel.",
+    "page_5": "Kepala halaman lanjutan lampiran, sisa tabel personel, blok pengesahan."
+  },
+  "reconstruction_constraints": [
+    "Prioritas tertinggi adalah kesamaan visual dengan DOCX sumber, bukan kerapian versi baru.",
+    "Sangat peka terhadap margin atas, bawah, kiri, kanan, dan batas area cetak.",
+    "Jangan mengubah garis tabel, garis bawah, garis pemisah, atau bentuk border.",
+    "Pertahankan tab asli; jangan mengganti tab dengan spasi berulang.",
+    "Pertahankan spasi antar kata, spasi sebelum/sesudah paragraf, dan jarak baris per paragraf.",
+    "Pertahankan alignment kop surat: blok kop di kiri atas, teks di dalam blok rata tengah.",
+    "Jaga ruang tanda tangan dan stempel; jangan biarkan isi menabrak area tersebut.",
+    "Jangan memindahkan logo, kop, nomor halaman, atau identitas lampiran saat pagination berubah.",
+    "Jangan memecah baris tabel/personel atau blok tanda tangan secara tidak wajar.",
+    "Jika ada konflik ruang, lanjutkan ke halaman berikutnya; jangan mengecilkan font otomatis."
+  ],
+  "validation_checklist": [
+    "Bandingkan jumlah halaman dengan sumber.",
+    "Bandingkan margin setiap section, karena sumber memakai beberapa section dengan margin berbeda.",
+    "Periksa posisi kop kiri atas dan alignment tengah di dalam blok kop.",
+    "Periksa tab, indentasi, spasi, dan jarak baris.",
+    "Periksa seluruh garis/border tabel dan lebar 7 kolom.",
+    "Periksa kepala tabel dan kepala lampiran pada halaman lanjutan.",
+    "Periksa nomor halaman dan identitas surat di bagian atas halaman.",
+    "Periksa ruang tanda tangan, nama, pangkat/NRP, dan ruang stempel.",
+    "Pastikan tidak ada teks yang menyentuh atau melewati margin bawah."
+  ]
+}
